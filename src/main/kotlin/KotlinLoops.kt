@@ -74,7 +74,7 @@ fun main(){
     }*/
 
     /**
-     * print value with parameter declared
+     * print value with type declared
      */
     var nStringList = arrayOf<String>("C","Java","Python","Kotlin")
 
@@ -83,8 +83,26 @@ fun main(){
     }
 
 
+    /**
+     * while loop
+     */
 
+    var x = 10
 
+    while (x>0) {
+        print("$x ")
+        x--
+    }
+
+    println("Do while")
+    /**
+     * do while loop
+     */
+    var y = 10
+    do {
+        print("$y ")
+        y--
+    }while (y>0)
 
 
 }
