@@ -4,7 +4,7 @@ fun main() {
 
     //Basic Types
 
-    var a = 10 + 6;
+    /*var a = 10 + 6;
     //re-assignable
     var value: Int = 10
     value = 15
@@ -62,5 +62,17 @@ fun main() {
     println("Length of $s is ${s.length}")
 
     val price = """${'$'}_9.99"""
-    println(price)
+    println(price)*/
+
+    val arr : IntArray= intArrayOf(4,8,9,4)
+    ssout(arr)
 }
+
+fun ssout(x:Any){
+    if (x is IntArray){
+        println(x.sum())
+
+    }
+}
+
+
