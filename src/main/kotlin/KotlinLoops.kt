@@ -53,25 +53,25 @@ fun main(){
      * print index
      */
 
-    /*for (index in nList.indices){
+    for (index in nList.indices){
         println(index)
-    }*/
+    }
 
     /**
-     * print value with index
+     * print both value and index
      */
 
-    /*for ((index, value ) in nList.withIndex()){
+    for ((index, value ) in nList.withIndex()){
         println("$index -> $value")
-    }*/
+    }
 
     /**
-     * print value with index
+     * print value with index different approach
      */
 
-   /* for(index in nList.indices){
+    for(index in nList.indices){
         println("nList[$index] = ${nList[index]}")
-    }*/
+    }
 
     /**
      * print value with type declared
@@ -94,7 +94,7 @@ fun main(){
         x--
     }
 
-    println("Do while")
+    println()
     /**
      * do while loop
      */
@@ -103,6 +103,33 @@ fun main(){
         print("$y ")
         y--
     }while (y>0)
+
+    println()
+    /**
+     * break statement in Kotlin
+     */
+    for (i in 0 until 10 step 1){
+
+        if (i==3){
+            print("\nBreak statement reach")
+            break
+        }else{
+            print("$i ")
+        }
+        }
+    println()
+
+    /**
+     * continue statement in Kotlin
+     */
+    for (i in 0 until 10 step 1){
+
+        if (i==3){
+            continue
+        }else{
+            print("$i ")
+        }
+    }
 
 
 }
