@@ -30,6 +30,8 @@ fun main() {
 
     val derievedClass = ChildClass("Munna",18,"Naogaon")
     derievedClass.display()
+    derievedClass.phone = "01782462614"
+    println("Phone ${derievedClass.phone.length}")
 }
 
 class ChildClass : KotlinClass {
@@ -37,6 +39,8 @@ class ChildClass : KotlinClass {
     var name :String? = null
     var address :String? = null
     var age :Int? = null
+    var phone : String = "01782462614"
+
 
 
     /**
